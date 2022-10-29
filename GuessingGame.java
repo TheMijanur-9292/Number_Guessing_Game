@@ -43,12 +43,12 @@ return"Correct!\nTotal Guesses: " + count;
 
 }
 else if (userAnswer > computerNumber) {
-return"Your guess is too high, try again.\nTry Number: " + count;
+return"Your guess is to Largh, try again later.\nTry Number: " + count;
 
 }
 
 else if (userAnswer < computerNumber) {
-return"Your guess is too low, try again.\nTry Number: " + count;
+return"Your guess is too small, try again later.\nTry Number: " + count;
 
 }
 else {
